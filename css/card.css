@@ -1,0 +1,96 @@
+.card {
+    width: 340px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image {
+    
+    height: 200px;
+    background-image: url(../assets/16153619604063.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.card-tag {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: rgb(55, 169, 169);
+    color: azure;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+.card-content {
+    padding: 25px;
+
+}
+.card-tible {
+    color: rgb(2, 2, 27);
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+
+}
+.card-description {
+    color: rgb(43, 14, 21);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.card-detail{
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: rgb(62, 44, 23);
+}
+
+.card-detail-icon {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-button {
+    display: block;
+    width: 100%;
+    background-color: rgb(20, 152, 161);
+    color: rgb(29, 18, 3);
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease;
+
+
+}
+.card-button:haver {
+    background-color: rgb(7, 7, 24);
+}
+
